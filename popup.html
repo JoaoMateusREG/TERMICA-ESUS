@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TÉRMICA E-SUS REGULAÇÃO</title>
+    <style>
+        body {
+            margin-top: auto;
+            background-color: rgb(240, 240, 240);
+            border: 1px solid rgb(240, 240, 240) ;
+
+        }
+
+        .box {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 130px;
+
+        }
+
+        h4 {
+            white-space: nowrap;
+            text-align: center;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
+
+        button {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 10px;
+            font-size: 13px;
+            border: 2px solid transparent;
+            border-radius: 5px;
+            background-color: #00CED1;
+            /* Cor de fundo do botão */
+            color: white;
+            cursor: pointer;
+            transition: all 0.6s ease;
+            /* Transição suave para os efeitos */
+
+        }
+
+        /* Efeito de hover */
+        button:hover {
+            background-color: blue;
+            /* Muda a cor de fundo para azul */
+            box-shadow: 0px 4px 8px rgba(0, 0, 255, 0.5);
+            /* Adiciona a sombra */
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="box">
+        <h4>
+            IMPRESSORA TÉRMICA
+        </h4>
+        <button id="captureAndPrintButton">Imprimir</button>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
